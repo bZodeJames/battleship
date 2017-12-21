@@ -41,7 +41,7 @@ end
 
 def computer_attack_grid
 
-  puts "================================"
+ sleep 1
 
   puts "
    =======================
@@ -107,6 +107,8 @@ def place_carrier
   
   puts "Where would you like to place your Carrier (Pick 5 spaces, 1 at a time)?"
  
+  player_ship_grid
+
   while @carrier <= 4
       @ship_carrier = gets.chomp!.strip.downcase
       x = @ship_carrier[0]
