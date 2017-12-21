@@ -28,13 +28,17 @@ def attack
       break
     else
       sleep 1
-      puts "calculating current results"
-      sleep 1
       puts "
-      -------------------------------------------------
+      
+      
+      calculating current results"
+      sleep 1.5
+      puts "
+       --------------------------------------------
       | Player has #{@hit} hits, the computer has #{@cpu_hit} hits |
-       -------------------------------------------------
+       --------------------------------------------
       "
+      sleep 2
     end
   end
 end

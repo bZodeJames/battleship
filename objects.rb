@@ -107,6 +107,8 @@ def place_carrier
   
   puts "Place your carrier 5 spaces"
  
+  player_ship_grid
+
   while @carrier <= 4
       @ship_carrier = gets.chomp!.strip.downcase
       x = @ship_carrier[0]
