@@ -41,7 +41,7 @@ end
 
 def computer_attack_grid
 
-  puts "================================"
+ sleep 1
 
   puts "
    =======================

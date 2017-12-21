@@ -30,7 +30,10 @@ def player_attack
               @cpu_board[:"#{x}"][y] == false
               @cpu_board[:"#{x}"][y] = "w"
               sleep 1
+              puts "..."
+              sleep 1
               puts "Sorry but you hit the ocean!"
+              sleep 1
             end
     else
       puts "Invalid input! Guess again!"
